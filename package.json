@@ -1,0 +1,36 @@
+{
+  "name": "home-billing-control-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start loader.js --name backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HomeBillingControl/home-billing-control-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HomeBillingControl/home-billing-control-backend/issues"
+  },
+  "homepage": "https://github.com/HomeBillingControl/home-billing-control-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-query-int": "^1.0.1",
+    "lodash": "^4.17.4",
+    "logger": "0.0.1",
+    "mongoose": "^4.9.7",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.8.1",
+    "node-restful": "^0.2.6",
+    "path": "^0.12.7",
+    "pm2": "^2.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
